@@ -1,0 +1,24 @@
+.testbox {
+  text-align: center;
+}
+
+table {
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 30%;
+}
+thead {
+  background-color: #246355;
+  text-align: center;
+  border-bottom: solid 2px #0F3620;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+td {
+  padding: 20px
+}
